@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+package-lock.json
+
+.env
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Git-specific files
+*.orig
+
+# Coverage/testing
+coverage/
+.nyc_output/
+
+# EJS view cache (if any)
+views/*.ejs~
+
+# Temp folder - ignore all contents except .gitkeep
+!temp/.gitkeep
+temp/*
