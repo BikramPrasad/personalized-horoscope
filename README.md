@@ -2,7 +2,7 @@
 
 1. Clone the Repository
    bash
-   git clone https://github.com/your-username/your-project-name.git
+   git clone https://github.com/BikramPrasad/personalized-horoscope.git
    cd your-project-name
 
 2. Install Dependencies
