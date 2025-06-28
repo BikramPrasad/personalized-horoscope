@@ -72,7 +72,7 @@ db.users.find().pretty()
 
 
 
-🧠 Design Decisions
+9.🧠 Design Decisions
 Modular Structure: Code is split into controllers, routes, services, and middleware for maintainability and scalability.
 
 Dockerized Setup: The app runs in isolated containers for MongoDB and the Node.js server, simplifying local and team-based development.
@@ -86,7 +86,7 @@ Zodiac Calculation: On registration, the user's birthdate is used to derive and 
 Swagger Integration: Auto-generates interactive API documentation from route annotations, improving usability for developers and API consumers.
 
 
-⏳ Improvements with More Time
+10.⏳ Improvements with More Time
 MongoDB Indexing: Add indexes on frequently queried fields like email or zodiacSign for faster lookups.
 
 User Verification: Add email verification on signup for added security and trust.
